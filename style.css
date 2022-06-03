@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans,sans-serif;
+    background-color: #bfd4ec;
+   
+}
+nav{
+    background-color: #a60000;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px;
+}
+nav ul {
+    text-align: right;
+    overflow: hidden;
+    background-color:  #a60000;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    padding-inline-start: 40px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px; 
+}
+
+nav ul li:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+    font-size: large;
+}
+table{
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 11px;
+    border-radius: 15px;
+    width: 1500px;
+    background-color: #2b4b70;
+    
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #bfd4ec;
+    border-radius: 15px;
+}
+tr{
+    padding: 5px;
+    margin: 25px;
+    width: 15px;  
+}
+th{
+    padding: 8px;
+    border: 1px solid rgba(48, 26, 26, 0.171);
+    border-radius: 15px;
+    margin: 12px;
+    width: 22px;
+    color: white;
+}
+td{
+    border: 4px solid rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+    margin-left: 12px;
+    color: white;
+}
+td:hover {
+    border: 4px solid rgb(253, 253, 253);
+    border-radius: 15px;
+    margin-left: 12px;
+    color: white;
+}
